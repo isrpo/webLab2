@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+.container{
+
+    max-width: 100%;
+    /*display: flex;*/
+}
+
+.item1{
+    /*margin-left: 5px;*/
+    width: 50%;
+    display: inline-block;
+    background-color: #0b2e13;
+}
+
+.item2{
+    /*margin-left: 5px;*/
+    width: 50%;
+    display: inline-block;
+    background-color: red;
+}
+
+.item3{
+    background-color: blue;
+}
+
+nav{
+    background: linear-gradient(to right, #4ae28a, #2cabf9);
+}
