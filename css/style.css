@@ -4,6 +4,8 @@
 
     1. Navigation block
     2. Main Content
+    2.1 Travelling
+    2.2 Cards
 
 
      -----------------------------------------------------------------------------------*/
@@ -13,8 +15,20 @@
 nav{
     background: linear-gradient(to right, #4c2614, #a36f3b);
 }
+/*--END Navigation block------------------*/
 
 /*  2. Main Content
+/*----------------------------------------*/
+
+/*  2.1 Travelling
+/*----------------------------------------*/
+.img-parrot{
+    min-width: 200px;
+    width: 100%;
+}
+/*--END Travelling------------------------*/
+
+/*  2.2 Cards
 /*----------------------------------------*/
 
 .bg-gradient{
@@ -29,8 +43,5 @@ nav{
 .color-white{
     color: #fff;
 }
+/*--END Cards-----------------------------*/
 
-.img-parrot{
-    min-width: 200px;
-    width: 100%;
-}
