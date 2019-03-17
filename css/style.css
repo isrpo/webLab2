@@ -16,7 +16,13 @@
     1. Navigation block
 ------------------------------------------------------------------*/
 nav{
-    background: linear-gradient(to right, #4c2614, #a36f3b);
+    z-index: 2;
+}
+
+.nav-item:hover{
+    margin-top: 5px;
+    border-bottom: 1px solid #f0f0f0;
+    transition-duration: 200ms;
 }
 /*------------------------------------------------------------------
     2. Main Content
@@ -35,7 +41,6 @@ nav{
 ------------------------------------------------------------------*/
 .bg-gradient{
     background: linear-gradient(to left, #4c2614, #a36f3b);
-    justify-content: center;
 }
 
 .bg-gradient a{
@@ -115,4 +120,10 @@ nav{
 
 .btn-my-style:hover{
     background-color: #F9C65E;
+}
+
+@media (max-width: 576px) {
+    nav{
+        background: linear-gradient(to left, #4c2614, #a36f3b);
+    }
 }
