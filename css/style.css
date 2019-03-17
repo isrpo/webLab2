@@ -3,7 +3,7 @@
     ===================
 
     1. Navigation block
-
+    2. Main Content
 
 
      -----------------------------------------------------------------------------------*/
@@ -14,5 +14,23 @@ nav{
     background: linear-gradient(to right, #4c2614, #a36f3b);
 }
 
-/*  2.
+/*  2. Main Content
 /*----------------------------------------*/
+
+.bg-gradient{
+    background: linear-gradient(to left, #4c2614, #a36f3b);
+    justify-content: center;
+}
+
+.bg-gradient a{
+    color: #fff;
+}
+
+.color-white{
+    color: #fff;
+}
+
+.img-parrot{
+    min-width: 200px;
+    width: 100%;
+}
